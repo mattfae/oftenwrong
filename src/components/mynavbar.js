@@ -18,10 +18,14 @@ class MyNavbar extends Component {
                     
                     <div className="flex w-full items-center justify-evenly px-6">
                         <div className="inline-block text-gray-600 hover:text-gray-700 m-1">
-                            Philosophy
+                            <a href="/philosophy" alt="Substack">
+                                Philosophy
+                            </a>
                         </div>
                         <div className="inline-block text-gray-600 hover:text-gray-700 m-1">
-                            Software
+                            <a href="/software" alt="Substack">
+                                Software
+                            </a>
                         </div>
                         <div className="inline-block text-gray-600 hover:text-gray-700 m-1">
                             <a href="http://oftenwrong.substack.com" alt="Substack">
