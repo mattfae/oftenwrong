@@ -12,7 +12,7 @@ class MyNavbar extends Component {
                     
                     <div className="flex-none">
                         <a href="/" className="text-3xl text-gray-700">
-                            Matt Guttman
+                            Often Wrong
                         </a>
                     </div>
                     
