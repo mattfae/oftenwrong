@@ -1,14 +1,32 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import MyNavbar from './components/mynavbar';
-import Main from './components/main';
+import HomePage from './components/homepage';
+import Philosophy from './components/philosophy';
+
 
 function App() {
+
   return (
-    <div className="App">
-        <MyNavbar />
-        <Main />
-    </div>
+
+        <Router>
+
+            <MyNavbar />
+
+            <Switch>
+
+                <Route exact path="/" >
+                    <HomePage />
+                </Route>
+                
+                <Route path="/philosophy" >
+                    <Philosophy />
+                </Route>
+
+            </Switch>
+
+        </Router>
   );
 }
 
