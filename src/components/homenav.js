@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import TwitterLogo from '../assets/resources/twitter_logo.png';
 
 
-class MyNavbar extends Component {
+class HomeNav extends Component {
 
     render() {
-        return(
+        return (
 
-            <div className="w-full px-6 bg-white shadow-md">
+            <div className="w-full relative px-6 z-10 bg-white shadow-md">
                 <div className="flex items-center py-4">
 
                     <div className="flex-none text-3xl text-gray-700 hover:text-shadow-sm">
@@ -51,4 +51,4 @@ class MyNavbar extends Component {
     }
 }
 
-export default MyNavbar;
+export default HomeNav;
