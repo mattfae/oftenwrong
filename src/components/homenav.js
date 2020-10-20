@@ -11,7 +11,7 @@ class HomeNav extends Component {
             <div className="w-full relative px-6 z-10 bg-white shadow-md">
                 <div className="flex items-center py-4">
 
-                    <div className="flex-none text-3xl text-gray-700 hover:text-shadow-sm">
+                    <div className="flex-none text-3xl text-gray-700 hover:text-black">
                             <Link to="/" >
                                 Often Wrong
                             </Link>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import HomeNav from './components/homenav';
 import HomePage from './components/homepage';
 import Philosophy from './components/philosophy';
@@ -9,9 +9,7 @@ import Philosophy from './components/philosophy';
 function App() {
 
   return (
-
-        <Router>
-
+        <div>
             <HomeNav />
 
             <Switch>
@@ -23,8 +21,7 @@ function App() {
                     <Philosophy />
                 </Route>
             </Switch>
-
-        </Router>
+        </div>
   );
 }
 
