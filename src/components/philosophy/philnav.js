@@ -14,10 +14,6 @@ function PhilNav() {
                 <div className="text-gray-600 hover:text-gray-700 m-2">
                     <ul>
                     <li className="m-1"/><Link to="philosophy/abstraction">Abstraction</Link>
-                    <li className="m-1"/><Link to="/">Test</Link>
-                    <li className="m-1"/><Link to="/">Test</Link>
-                    <li className="m-1"/><Link to="/">Test</Link>
-                    <li className="m-1"/><Link to="/">Test</Link>
                     </ul>
                 </div>
 
