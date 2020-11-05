@@ -8,7 +8,7 @@ class HomePage extends Component {
             <div className="flex text-gray-600">
                 <div className="flex justify-self-center p-24 mx-12">
                     <div className="block p-6">
-                        I'm Matt Guttman.<br/>
+                        Personal Website of Matt Guttman.<br/>
                         I enjoy thinking about philosophy, particularly ethics, epistemology, consciousness, and philosophy of science.<br/>
                     </div>
                 </div>
