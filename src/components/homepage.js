@@ -9,7 +9,8 @@ class HomePage extends Component {
                 <div className="flex justify-self-center p-24 mx-12">
                     <div className="block p-6">
                         Personal Website of Matt Guttman.<br/>
-                        I enjoy thinking about philosophy, particularly ethics, epistemology, consciousness, and philosophy of science.<br/>
+                        I'm a software engineer, data analyst, philosopher, and teacher.<br/>
+                        I'm especially interested in consciousness, ethics, machine learning, and other topics in AI.
                     </div>
                 </div>
             </div>
