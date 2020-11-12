@@ -26,7 +26,7 @@ class HomeNav extends Component {
                         </div>
 
                         <div className="inline-block text-gray-600 hover:text-gray-700 m-1">
-                            <a href="https://friends-of-app.heroku.com" alt="Software">
+                            <a href="http://friends-of-app.heroku.com" alt="Software">
                                 Software
                             </a>
                         </div>
