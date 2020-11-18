@@ -3,6 +3,7 @@ import { Route, Switch, useRouteMatch } from 'react-router-dom';
 import PhilNav from './philosophy/philnav';
 import PhilHome from './philosophy/philhome';
 import Abstraction from './philosophy/abstraction';
+import Interconnectedness from './philosophy/interconnectedness';
 
 function Philosophy() {
 
@@ -16,12 +17,17 @@ function Philosophy() {
                 <div className="flex">
                     <div className="pl-6 pt-8 text-gray-700">
                         <Switch>
+
                             <Route exact path={path}>
                                 <PhilHome />
                             </Route>
 
                             <Route path={`${path}/abstraction`}>
                                 <Abstraction />
+                            </Route>
+
+                            <Route path={`${path}/interconnectedness`}>
+                                <Interconnectedness />
                             </Route>
 
                         </Switch>
