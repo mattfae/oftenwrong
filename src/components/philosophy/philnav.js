@@ -13,13 +13,13 @@ function PhilNav() {
 
                 <div className="text-gray-600 hover:text-gray-700 m-2">
                     <ul>
-                    <li className="m-1"/><Link to="philosophy/abstraction">Abstraction</Link>
+                    <li className="m-1"/><Link to="/philosophy/abstraction">Abstraction</Link>
                     </ul>
                 </div>
 
                 <div className="text-gray-600 hover:text-gray-700 m-2">
                     <ul>
-                    <li className="m-1"/><Link to="philosophy/interconnectedness">Interconnectedness</Link>
+                    <li className="m-1"/><Link to="/philosophy/interconnectedness">Interconnectedness</Link>
                     </ul>
                 </div>
 
